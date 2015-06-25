@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application version="6" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd">
+  <display-name>DRS</display-name>
+  <module>
+    <web>
+      <web-uri>DRS-war.war</web-uri>
+      <context-root>/DRS</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>DRS-ejb.jar</ejb>
+  </module>
+</application>
